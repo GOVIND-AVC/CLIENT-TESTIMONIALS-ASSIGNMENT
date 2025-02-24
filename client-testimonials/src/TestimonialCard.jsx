@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const TestimonialCard = ({name,review}) => {
+const TestimonialCard = ({name,review}) => {
     return(
         <div>
             <h1>{name}</h1>
@@ -8,3 +8,5 @@ export const TestimonialCard = ({name,review}) => {
         </div>
     )
 }
+
+export default TestimonialCard
